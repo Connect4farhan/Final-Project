@@ -26,16 +26,54 @@
     border-bottom: 2px rgb(252, 196, 124);
     box-shadow: 0 2px 20px rgb(253, 124, 124);
 }
-.header ul{
+
+.header ul {
     display: flex;
     justify-content: space-around;
     /* align-content: center; */
 }
-.header ul li:hover{
+
+.header ul li:hover {
     color: rgb(253, 57, 8);
 }
-.nav ul li{
+
+.nav ul li {
     padding: 10 15px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.account {
+    flex: 0.1;
+}
+
+.account ul {
+    display: flex;
+    justify-content: end;
+}
+
+.account ul li {
+    padding: 0.15px;
+    font-size: 18px;
+}
+
+.bar i:hover {
+    color: rgb(253, 57, 8);
+}
+.search{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.srchicon{
+    background-color: rgb(255, 210, 210);
+    display: block;
+    padding: 4px 5px;
+    cursor: pointer;
 }
