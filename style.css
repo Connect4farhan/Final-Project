@@ -36,20 +36,20 @@
 .bar i {
     margin: 5px;
     font-size: 18px;
-    
+
 }
 
 header ul {
     display: flex;
 
     align-items: center;
-    
+
 }
 .nav ul li {
     padding: 0 15px;
     font-weight: bold;
     font-size: 14px;
-    
+
 }
 .bar i:hover{
     color: rgb(253, 57, 8);
@@ -121,6 +121,7 @@ header ul li:hover {
         right: -100%;
         bottom: 0;
         width: 100%;
+        transition: all 0.5s;
         background-color: rgb(252, 231, 216)
     }
     .headerbar .account, .headerbar .nav  {
@@ -163,7 +164,7 @@ header ul li:hover {
     .headerbar .account ul {
 
         justify-content: space-between;
-        
+
 
     }
 }
