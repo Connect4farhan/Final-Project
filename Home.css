@@ -273,6 +273,102 @@
     border-radius: 10px;
 }
 
+
+/* _____Main_Slide4_____ */
+
+.main_slide4 {
+    margin-top: 270px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 200px;
+}
+
+.main_slide4 .chef-feed {
+    flex: 0.5;
+    margin-top: 30px;
+}
+
+.main_slide4 .chef {
+    flex: 0.5;
+    text-align: right;
+}
+
+.main_slide4 .chef img {
+    margin-top: -130px;
+    width: 39vw;
+    max-width: 490;
+}
+
+.main_slide4 .chef-feed h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.main_slide4 .chef-feed p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.main_slide4 .chef-detail {
+    margin-top: 20px;
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+}
+
+.main_slide4 .chef-detail img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid white;
+}
+
+.main_slide4 .chef-detail h6 {
+    font-size: 14px;
+}
+
+.main_slide4 .chef-detail p {
+    font-size: 11px;
+    color: red;
+}
+
+.main_slide4 .chef-vic {
+    display: flex;
+    align-items: center;
+    padding: 25px 16px;
+    background-color: rgb(255, 219, 185);
+    border-radius: 0 100px 0 0;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.main_slide4 .chef-vic div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex: 0.5;
+    height: 27px;
+    overflow: hidden;
+}
+
+.main_slide4 .chef-vic div i,
+.main_slide4 .chef-vic div h4 {
+    font-size: 27px;
+    margin-right: 8px;
+
+}
+
+.main_slide4 .chef-vic div h4 {
+    color: red;
+}
+
+.main_slide4 .chef-vic div p {
+    font-size: 11px;
+    padding-top: 8px;
+    line-height: 13px;
+}
+
 @media only screen and (max-width : 786px) {
     /* Food Items Meia Quree */
 
@@ -309,6 +405,27 @@
     .main_slide3 .fav-head{
         width: 80%;
         margin-bottom: 20px;
+    }
+
+
+    /* ____Main_Slide4 Meadia Quree____ */
+
+    .main_slide4 {
+        margin-top: 150px;
+    }
+
+    .main_slide4 .chef-feed {
+        flex: 1;
+    }
+
+    .main_slide4 .chef {
+        flex: 1;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .main_slide4 .chef img {
+        width: 80vw;
     }
 }
 
@@ -361,5 +478,13 @@
     .main_slide3 .dsgn{
         display: none;
     }
+
+
+    /* _____Main_Slide4_____ */
+
+    .main_slide4 .chef-vic div p {
+        display: none;
+  
+}
 }
 
