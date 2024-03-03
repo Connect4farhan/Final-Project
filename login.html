@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./loginstyle.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- <div class="login"> -->
+    <div class="page">
+        <form action="" name="Formfill"  onsubmit="return validation ()" >
+           
+            <div class="card">
+                
+                <h1>Sign Up</h1>
+                <p id="result"> </p>
+                
+                <div class="item1a"><input type="text" name="fName" id="fname" placeholder="Enter First Your Name" ></div>
+                <div class="item1b"><input type="text" name="sName" id="sname" placeholder="Enter Your Last Name" ></div>
+                <div class="item2"> <input type="email" name="email" id="email" placeholder="Enter Your Email" ></div>
+                <div class="item3"><input type="password" name="password" id="password" placeholder="Create a Password" ></div>
+                <div class="item4"><input type="password" name="Cpassword" id="Cpassword" placeholder="Confirm Password" ></div>
+                <div class="item4"><button onclick="validation()"  class="button">Sign Up</button></div>
+                
+                <p>Already account? <a href="index.html" >Sign In</a></p>
+            </div>
+        </form>
+    
+
+
+        <div class="popup" id="popup">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+        <h2>Thank you!</h2>
+        <span>Your were Registration Successfully. Thanks!</span>
+        <a href=""><button>OK</button></a>
+    </div>
+</div>
+    <!-- </div> -->
+        
+    
+    <script src="login.js"></script>
+</body>
+</html>

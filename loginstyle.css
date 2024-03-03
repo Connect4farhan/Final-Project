@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-image: url("./banner-img.jpg");
+    background-size: cover;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+    color:  rgb(253, 77, 8);;
+}
+.card{
+    width: 500px;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+#fname{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+
+    
+}
+
+#sname{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+
+}
+
+#email{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+
+
+}
+#password{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+
+
+}
+#Cpassword{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+
+
+}
+
+.button{
+
+
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: rgb(253, 77, 8);
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* font-weight: bolder; */
+   
+}
+
+
+.button:hover{
+    background-color: white;
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    border: 1px solid rgb(253, 77, 8);
+    color: rgb(253, 77, 8);
+}
+.card p{
+    margin-top: 20px;
+    
+    
+    
+}
+
+.card p a {
+    color: rgb(253, 77, 8);
+}
+
+
+.card #result {
+    color: red;
+    font-weight: 600px;
+    /* position: relative;
+    top: 25px; */
+}
+
+
+
+
+.popup {
+    margin-bottom:70px ;
+    width: 440px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% , -50% ) scale(0);
+    visibility: hidden;
+    transition: 0.4s top , 0.4s;
+    padding: 0px 30px 30px;
+    height: 320px;
+    color: black;
+    font-size: 15px;
+}
+.popup ion-icon {
+    color: rgb(253, 77, 8);
+    font-size: 50px;
+}
+.popup h2 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.popup span {
+    font-size: 16px;
+  
+
+}
+
+.popup button {
+    cursor: pointer;
+    margin-top: 40px;
+    width: 90%;
+    font-size: 18px;
+    color: white;
+    line-height: 45px;
+    border: 1px solid rgb(253, 77, 8);
+    background-color: rgb(253, 77, 8);
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    transition: all 0.2s;
+}
+
+.popup button:hover {
+    color: rgb(253, 77, 8);
+    background-color: white;
+    /* box-shadow: 0 10px 15px rgb(250, 120, 69); */
+}
+.open-slide{
+    top: 50%;
+    transform: translate(-50%,-50%);
+    visibility: visible;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    .card {
+        width: 440px;
+    }
+
+    
+
+
+}
