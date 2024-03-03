@@ -31,3 +31,10 @@ cross.addEventListener ('click' , function () {
     cross.style.display = 'none';
     headerbar.style.right = '-100%';
 })
+
+let user = document.getElementById ("user");
+user.addEventListener("click", function() {
+    document.querySelector ('.loginPage').classList.toggle("active1");
+
+    
+})
